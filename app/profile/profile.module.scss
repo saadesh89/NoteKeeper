@@ -1,0 +1,36 @@
+.main{
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .profile_info{
+        width: 60%;
+        height: 90%;
+        margin: auto;
+        padding: 20px 10px;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+
+        .picture{
+            width: 25%;
+            height: 100%;
+            margin: auto;
+        }
+
+        .info{
+            width: 65%;
+            text-align: justify;
+
+            h4, p{
+                margin: 8px 0px;
+            }
+
+            p{
+                width: 90%;
+            }
+        }
+    }
+}
